@@ -33,7 +33,7 @@ public class HomePage extends base {
 
 		// creating object to that class and invoke methods of it
 		driver.get(prop.getProperty("url"));
-		System.out.println("Test Line");
+		//System.out.println("Test Line");
 		}
 
 	@AfterTest
