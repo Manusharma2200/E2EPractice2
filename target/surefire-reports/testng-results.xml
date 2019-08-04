@@ -2,48 +2,48 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="18767" started-at="2019-08-04T01:25:28Z" finished-at="2019-08-04T01:25:47Z">
+  <suite name="Suite" duration-ms="15389" started-at="2019-08-04T01:35:53Z" finished-at="2019-08-04T01:36:08Z">
     <groups>
     </groups>
-    <test name="Validating User login" duration-ms="5458" started-at="2019-08-04T01:25:28Z" finished-at="2019-08-04T01:25:33Z">
+    <test name="Validating User login" duration-ms="3741" started-at="2019-08-04T01:35:53Z" finished-at="2019-08-04T01:35:57Z">
       <class name="Academy.HomePage">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.HomePage@3d299e3]" name="initialize" is-config="true" duration-ms="4679" started-at="2019-08-03T21:25:28Z" finished-at="2019-08-03T21:25:33Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.HomePage@3eb738bb]" name="initialize" is-config="true" duration-ms="3654" started-at="2019-08-03T21:35:53Z" finished-at="2019-08-03T21:35:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.HomePage@3d299e3]" name="teardown" is-config="true" duration-ms="705" started-at="2019-08-03T21:25:33Z" finished-at="2019-08-03T21:25:33Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.HomePage@3eb738bb]" name="teardown" is-config="true" duration-ms="81" started-at="2019-08-03T21:35:56Z" finished-at="2019-08-03T21:35:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Academy.HomePage -->
     </test> <!-- Validating User login -->
-    <test name="Validating title in the Page" duration-ms="5613" started-at="2019-08-04T01:25:33Z" finished-at="2019-08-04T01:25:39Z">
+    <test name="Validating title in the Page" duration-ms="5868" started-at="2019-08-04T01:35:57Z" finished-at="2019-08-04T01:36:02Z">
       <class name="Academy.validateTitle">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.validateTitle@19d37183]" name="initialize" is-config="true" duration-ms="3903" started-at="2019-08-03T21:25:33Z" finished-at="2019-08-03T21:25:37Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.validateTitle@1c1bbc4e]" name="initialize" is-config="true" duration-ms="4322" started-at="2019-08-03T21:35:57Z" finished-at="2019-08-03T21:36:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="validateAppTitle()[pri:0, instance:Academy.validateTitle@19d37183]" name="validateAppTitle" duration-ms="1506" started-at="2019-08-03T21:25:37Z" finished-at="2019-08-03T21:25:39Z">
+        <test-method status="PASS" signature="validateAppTitle()[pri:0, instance:Academy.validateTitle@1c1bbc4e]" name="validateAppTitle" duration-ms="1209" started-at="2019-08-03T21:36:01Z" finished-at="2019-08-03T21:36:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAppTitle -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.validateTitle@19d37183]" name="teardown" is-config="true" duration-ms="190" started-at="2019-08-03T21:25:39Z" finished-at="2019-08-03T21:25:39Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.validateTitle@1c1bbc4e]" name="teardown" is-config="true" duration-ms="329" started-at="2019-08-03T21:36:02Z" finished-at="2019-08-03T21:36:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- Academy.validateTitle -->
     </test> <!-- Validating title in the Page -->
-    <test name="Validating navigation Bar" duration-ms="7623" started-at="2019-08-04T01:25:39Z" finished-at="2019-08-04T01:25:47Z">
+    <test name="Validating navigation Bar" duration-ms="5738" started-at="2019-08-04T01:36:02Z" finished-at="2019-08-04T01:36:08Z">
       <class name="Academy.validateNavigationBar">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.validateNavigationBar@69930714]" name="initialize" is-config="true" duration-ms="4108" started-at="2019-08-03T21:25:39Z" finished-at="2019-08-03T21:25:43Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.validateNavigationBar@2aceadd4]" name="initialize" is-config="true" duration-ms="4171" started-at="2019-08-03T21:36:02Z" finished-at="2019-08-03T21:36:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="validateAppNavBar()[pri:0, instance:Academy.validateNavigationBar@69930714]" name="validateAppNavBar" duration-ms="1332" started-at="2019-08-03T21:25:43Z" finished-at="2019-08-03T21:25:45Z">
+        <test-method status="PASS" signature="validateAppNavBar()[pri:0, instance:Academy.validateNavigationBar@2aceadd4]" name="validateAppNavBar" duration-ms="1418" started-at="2019-08-03T21:36:07Z" finished-at="2019-08-03T21:36:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAppNavBar -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.validateNavigationBar@69930714]" name="teardown" is-config="true" duration-ms="2182" started-at="2019-08-03T21:25:45Z" finished-at="2019-08-03T21:25:47Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.validateNavigationBar@2aceadd4]" name="teardown" is-config="true" duration-ms="148" started-at="2019-08-03T21:36:08Z" finished-at="2019-08-03T21:36:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
