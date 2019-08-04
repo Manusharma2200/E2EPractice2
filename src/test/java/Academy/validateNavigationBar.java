@@ -1,0 +1,54 @@
+package Academy;
+
+import java.io.IOException;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.testng.Assert;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import pageObjects.LandingPage;
+import pageObjects.LoginPage;
+import resources.base;
+//Adding logs 
+//Generating html reports
+//Screenshots on failure
+//JEnkins integration
+public class validateNavigationBar extends base{
+	
+	 public static Logger log =LogManager.getLogger(base.class.getName());
+@BeforeTest
+
+public void initialize() throws IOException
+{
+	
+	 driver =initializeDriver();
+		
+	driver.get(prop.getProperty("url"));
+}
+	
+	@Test
+	
+	public void validateAppNavBar() throws IOException
+	{
+
+		driver.get(prop.getProperty("url"));	
+		
+		}
+	
+	@AfterTest
+	public void teardown()
+	{
+		
+		driver.close();
+		driver=null;
+		
+	}
+
+	
+}
